@@ -21,4 +21,4 @@ class AuditEvent:
         object.__setattr__(self, "details", details_copy(self.details))
 
     def describe(self) -> str:
-        return f"{self.event_id}:{self.event_type}:{self.entity_id}"
+        return f"{self.event_id}:{self.event_type}:{self.entity_id}"=

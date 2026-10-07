@@ -6,8 +6,8 @@ class AuditEvent:
         self._event_id=identifier(event_id)
         self._event_type=choice(event_type,EVENT_TYPES,"INVALID_EVENT_TYPE")
         self._entity_id=identifier(entity_id)
-        self._timestamp=timestamp  # ЛР2: UTC с точностью до секунд
-        self._details=details  # ЛР2: входной снимок
+        self._timestamp=utc_seconds(timestamp)  # ЛР2: UTC с точностью до секунд
+        self._details=details_copy(details)  # ЛР2: входной снимок
 
     @property
     def event_id(self):return self._event_id
@@ -22,4 +22,4 @@ class AuditEvent:
     def timestamp(self):return self._timestamp
 
     @property
-    def details(self):return self._details  # ЛР2: выходной снимок
+    def details(self):return details_copy(self._details)  # ЛР2: выходной снимок
