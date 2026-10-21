@@ -40,7 +40,7 @@ def view(event):
         "event_type": event.event_type,
         "entity_id": event.entity_id,
         "timestamp": event.timestamp,
-        "details": event.details,
+        "details": event.details, 
     }
 
 
