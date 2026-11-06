@@ -1,0 +1,13 @@
+{
+  "app/api.py": "c42a7948636d70ca05fc28f6f4c3023abdf89abb583f93f608ea6cec6d791660",
+  "app/support/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "app/support/errors.py": "ce3b7a67a344a59c282e6dce34f178dd047466712697eaa8dbd9cace93fabaf3",
+  "app/support/money.py": "f498773c7642b2a19682b8d71b08cf8f049131ca5e363a2ac111825905b15f5c",
+  "app/support/types.py": "8d2f455991c9bd1410e683988e2b2bf6a11341923172b0eb6c919b5ee58b2ec6",
+  "bonus_tests/test_bonus.py": "64986528972f8af396abddc966ee08cf0444fa0b12a5f5c5ea98c72ef684ccac",
+  "conftest.py": "155c516061e0bfbe0f30e4215d6098c203a0fa0f7201afd88fe9de9b1459bddc",
+  "pytest.ini": "0a7768bbb53a890047c800347d2a817bbcc0294dfa4f48b8457954b5d75a6f5a",
+  "tests/test_contract.py": "f53ffa8de7f047d7cd3f2bf9332a19bd10f8784ad7047f0972d7411d8e6a429d",
+  "tests/test_progression.py": "ef5e9419a3ea62936ad6d73b79c6ff90acbbdd7f76b51ab057225b375f98f1f0",
+  "tests/test_review_contract.py": "ee5c934a60713c8d4cc789853254622f017b701004cc5566058e68362c594466"
+}
